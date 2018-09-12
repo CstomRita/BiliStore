@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BiliStore" />
+        <module name="bilistore_common" />
+        <module name="bilistore_manager_mapper" />
+        <module name="bilistore_manager_pojo" />
+        <module name="bilistore_manager_service" />
+        <module name="bilistore_manager_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BiliStore" target="1.5" />
+      <module name="bilistore_common_mapper" target="1.8" />
+      <module name="bilistore_common_pojo" target="1.8" />
+      <module name="bilistore_common_service" target="1.8" />
+      <module name="bilistore_common_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
