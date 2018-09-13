@@ -8,7 +8,6 @@
 
     <!--事务管理-->
     <!--主要涉及Spring的AOP-->
-
     <!--事物管理器-->
     <bean id = "transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -24,7 +23,11 @@
         </tx:attributes>
     </tx:advice>
 
-    <!--&lt;!&ndash;通知aop&ndash;&gt;-->
-    <!--<aop:config advice-ref="txAdvice"-->
+    <!--通知aop-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice"
+                     pointcut="execution(* com.manager.service.*.*(..)"/>
+        <!--service.类.方法(参数) service下的所有方法都会使用这个管理事物-->
+    </aop:config>
 
 </beans>
