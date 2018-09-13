@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.alibaba.com/schema/stat http://www.alibaba.com/schema/stat.xsd">
 
     <!--controller扫描-->
-    <context:component-scan base-package="controller"/>
+    <context:component-scan base-package="com.manager.controller"/>
 
     <!--MVC驱动-->
     <mvc:annotation-driven/>

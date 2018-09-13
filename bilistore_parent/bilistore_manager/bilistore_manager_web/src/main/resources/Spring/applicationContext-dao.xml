@@ -49,7 +49,7 @@
 
     <!-- Mapper扫描 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="mapper"/>
+        <property name="basePackage" value="com.manager.mapper"/>
     </bean>
 
     <!--以上整合Spring和Mybatis-->
