@@ -29,7 +29,7 @@ POJO：存放实体类，Jar类型
 
 mapper：Mybatis、SQL映射文件，Jar类，依赖POJO（依赖就直接在dependency中写）
 
-service：提供接口，Jar类，依赖mapper
+pojo：提供接口，Jar类，依赖mapper
 
 web：面向用户、业务展示，需要上传到服务器的war包，依赖Service
 
@@ -43,7 +43,7 @@ jedis Redis客户端
 solrj solr客户端
 slf4j 日志处理
 fastjson Json处理
-httpclient 模块间通信web service
+httpclient 模块间通信web pojo
 druid 连接池
 jstl servlet-api jsp-api Jsp相关
 joda-time 时间操作
