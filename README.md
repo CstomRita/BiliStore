@@ -1,4 +1,6 @@
 
+## SSM + Redis 项目
+
 ### 搭建结构
 
 1 创建普通的Maven工程，删掉src、pom，只留下.idea 和 .iml的工程配置即可
@@ -41,7 +43,7 @@ mybatis,mybatis-spring,mybatis-paginator,pagehelper
 mysql
 jedis Redis客户端
 solrj solr客户端
-slf4j 日志处理
+log4j 日志处理
 fastjson Json处理
 httpclient 模块间通信web pojo
 druid 连接池
