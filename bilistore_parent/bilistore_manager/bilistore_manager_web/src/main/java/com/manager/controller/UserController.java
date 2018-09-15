@@ -9,8 +9,9 @@ package com.manager.controller;
 
 import com.manager.pojo.User;
 import com.manager.service.UserService;
-import com.manager.service.impl.UserServiceImpl;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -24,12 +25,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class UserController {
+    Logger logger = Logger.getLogger(UserController.class);
     @Autowired
     UserService userService;
 
     @RequestMapping("/user/userid")
     @ResponseBody
-    public User getUserById(int userid){
-        return userService.getUserById(userid);
+    public String getUserById(int userid){
+        logger.info("接收到userid"+userid);
+        User user = userService.getUserById(userid);
+        logger.info(user.getUsername());
+        return user.getUsername();
     }
 }

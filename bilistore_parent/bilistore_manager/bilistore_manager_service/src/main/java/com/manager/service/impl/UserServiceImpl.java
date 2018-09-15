@@ -11,6 +11,7 @@ package com.manager.service.impl;
 import com.manager.mapper.UserMapper;
 import com.manager.pojo.User;
 import com.manager.service.UserService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,13 +24,13 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl implements UserService {
-
+    Logger loogger = Logger.getLogger(UserServiceImpl.class);
     @Autowired
     UserMapper userMapper;
 
     @Override
-    public User getUserById(int id) {
-
-        return userMapper.getUserById(1);
+    public User getUserById(Integer id) {
+        loogger.info("调用getUserById方法"+id);
+        return userMapper.getUserById(id);
     }
 }

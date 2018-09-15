@@ -7,16 +7,16 @@
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
 
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>/WEB-INF/index.jsp</welcome-file>
     </welcome-file-list>
 
-    <!--spring容器加载-->
+    <!--spring容器加载,所有的SpringContext文件-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:Spring/applicationContext-dao.xml</param-value>
+        <param-value>classpath:spring/applicationContext-*.xml</param-value>
     </context-param>
     <listener>
-        <listener-class>org.springframework.web.context.ContextLoader</listener-class>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
 
@@ -40,7 +40,7 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:Spring/springMVC.xml</param-value>
+            <param-value>classpath:spring/springMVC.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -48,5 +48,5 @@
         <servlet-name>bilistore_manager</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
+    <!--/会拦截所有请求，包括静态资源，我们需要在springMVC中配置静态资源的映射-->
 </web-app>

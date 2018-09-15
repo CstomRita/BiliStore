@@ -8,6 +8,7 @@
 package com.manager.service;
 
 import com.manager.pojo.User;
+import org.springframework.stereotype.Service;
 
 /**
  * 〈userService〉
@@ -17,5 +18,5 @@ import com.manager.pojo.User;
  * @since 1.0.0
  */
 public interface UserService {
-    User getUserById(int id);
+    User getUserById(Integer id);
 }
