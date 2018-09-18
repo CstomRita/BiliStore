@@ -7,6 +7,8 @@
  */
 package com.manager.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.manager.pojo.User;
 import com.manager.service.UserService;
 import org.apache.log4j.Logger;
@@ -31,10 +33,9 @@ public class UserController {
 
     @RequestMapping("/user/userid")
     @ResponseBody
-    public String getUserById(int userid){
+    public User getUserById(int userid){
         logger.info("接收到userid"+userid);
         User user = userService.getUserById(userid);
-        logger.info(user.getUsername());
-        return user.getUsername();
+        return user;
     }
 }

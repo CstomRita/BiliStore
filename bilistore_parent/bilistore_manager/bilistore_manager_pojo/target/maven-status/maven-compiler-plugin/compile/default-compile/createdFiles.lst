@@ -1,0 +1,5 @@
+com/manager/pojo/returntype/JsonResultType.class
+com/manager/pojo/User.class
+com/manager/pojo/returntype/CatReturnType.class
+com/manager/pojo/TbItemCat.class
+com/manager/pojo/TbItem.class
