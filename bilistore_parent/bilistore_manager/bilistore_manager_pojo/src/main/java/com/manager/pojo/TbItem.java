@@ -1,6 +1,10 @@
 package com.manager.pojo;
 
+
 import org.joda.time.DateTime;
+
+import java.sql.Timestamp;
+import java.util.Date;
 
 /**
  * @ Author     ：CstomRita
@@ -18,8 +22,8 @@ public class TbItem {
     private String barcode;
     private String image;
     private Integer status;
-    private DateTime created;
-    private DateTime updated;
+    private Timestamp created;
+    private Timestamp updated;
     private Long cid;
 
     public Long getId() {
@@ -86,19 +90,19 @@ public class TbItem {
         this.status = status;
     }
 
-    public DateTime getCreated() {
+    public Timestamp getCreated() {
         return created;
     }
 
-    public void setCreated(DateTime created) {
+    public void setCreated(Timestamp created) {
         this.created = created;
     }
 
-    public DateTime getUpdated() {
+    public Timestamp getUpdated() {
         return updated;
     }
 
-    public void setUpdated(DateTime updated) {
+    public void setUpdated(Timestamp updated) {
         this.updated = updated;
     }
 

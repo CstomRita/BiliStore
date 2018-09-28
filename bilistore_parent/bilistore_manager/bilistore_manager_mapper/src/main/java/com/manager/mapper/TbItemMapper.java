@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface TbItemMapper {
     List<TbItem> getAllItem();
+
+    Integer addNewItem(TbItem item);
 }

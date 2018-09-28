@@ -1,5 +1,7 @@
 package com.manager.service.impl;
 
+import Utils.NameIdUtil;
+import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.manager.mapper.TbItemMapper;
@@ -7,9 +9,12 @@ import com.manager.pojo.returntype.JsonResultType;
 import com.manager.pojo.TbItem;
 import com.manager.service.TbItemService;
 import org.apache.log4j.Logger;
+import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -42,4 +47,18 @@ public class TbItemImpl implements TbItemService {
        jsonResult.setTotal(pageInfo.getTotal());
         return jsonResult;
     }
+
+    @Override
+    public JSONObject addNewItem(TbItem item) {
+        JSONObject result = new JSONObject();
+        item.setId(NameIdUtil.genItemId());
+        item.setCreated(new Timestamp(new Date().getTime()));
+        item.setUpdated(new Timestamp(new Date().getTime()));
+        item.setStatus(1);
+        logger.info(item.getUpdated());
+        itemMapper.addNewItem(item);
+        result.put("status",200);
+        return result;
+    }
+
 }

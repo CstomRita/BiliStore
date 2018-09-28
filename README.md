@@ -52,3 +52,8 @@ joda-time 时间操作
 commons-langs commons-io commons-net apache处理包
 commmons-fileupload 文件上传
 
+#### update
+
+使用FTP服务器作为图片服务器，新增产品操作
+
+

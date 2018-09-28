@@ -1,5 +1,7 @@
 package com.manager.controller;
 
+import com.alibaba.fastjson.JSONObject;
+import com.manager.pojo.TbItem;
 import com.manager.pojo.returntype.CatReturnType;
 import com.manager.pojo.returntype.JsonResultType;
 import com.manager.service.TbItemCatService;
@@ -8,6 +10,8 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
@@ -52,4 +56,13 @@ public class TbItemController {
         logger.info("接收到id:"+id);
         return tbItemCatService.getTbItemCatByParentId(id);
     }
+
+    @RequestMapping(value="/item/save",method=RequestMethod.POST)
+    @ResponseBody
+    public JSONObject save(TbItem item,String desc) {
+        logger.info(desc);
+        return tbItemService.addNewItem(item);
+    }
+
+
 }

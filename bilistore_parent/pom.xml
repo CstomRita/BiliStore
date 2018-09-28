@@ -40,7 +40,7 @@
         <jstl.version>1.2</jstl.version>
         <servelt-api.version>2.5</servelt-api.version>
         <jsp-api.version>2.0</jsp-api.version>
-        <joda-time.version>2.10</joda-time.version>
+        <joda-time.version>2.9.9</joda-time.version>
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-io.version>1.3.2</commons-io.version>
         <commons-net.version>3.3</commons-net.version>
@@ -248,7 +248,24 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-        </plugins>
+            <!--打包添加依赖-->
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <!--这部分可有可无,加上的话则直接生成可运行jar包-->
+                    <!--<archive>-->
+                    <!--<manifest>-->
+                    <!--<mainClass>${exec.mainClass}</mainClass>-->
+                    <!--</manifest>-->
+                    <!--</archive>-->
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+
+  </plugins>
 
         <pluginManagement>
             <plugins>

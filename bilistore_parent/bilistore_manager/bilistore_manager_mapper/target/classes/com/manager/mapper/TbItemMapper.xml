@@ -7,4 +7,14 @@
     <select id="getAllItem" resultType="com.manager.pojo.TbItem">
         select * from tb_item
     </select>
+
+    <insert id="addNewItem">
+        insert into tb_item (
+        id,title,sell_point,price,num,barcode,image,cid,created,updated,status
+        )
+        values
+        (
+        #{id},#{title},#{sellPoint},#{price},#{num},#{barcode},#{image},#{cid},#{created},#{updated},#{status}
+        )
+    </insert>
 </mapper>
