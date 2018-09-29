@@ -1,10 +1,10 @@
 package com.manager.service;
 
-import com.manager.pojo.returntype.CatReturnType;
+import ResultType.EasyUI_Tree_ReturnType;
 
 import java.util.List;
 
 public interface TbItemCatService {
 
-    List<CatReturnType> getTbItemCatByParentId(Integer id);
+    List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Integer id);
 }

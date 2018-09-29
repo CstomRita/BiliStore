@@ -1,11 +1,11 @@
-package com.manager.pojo.returntype;
+package ResultType;
 
 import java.util.List;
 
 /**
  * @ Author     ：CstomRita
  * @ Date       ：Created in 上午10:11 2018/9/16
- * @ Description：JsonResultType
+ * @ Description：EasyUI_DataGrid_ReturnType
  * 基本：
  * 通过@ResponseBOdy注解我们可以把一个对象返回JsonObject的格式
  * 如果是一个对象的List 返回的是JsonArray，每个元素都是一个对象的JsonObject
@@ -15,9 +15,9 @@ import java.util.List;
  * @ Modified By：
  * @Version: v1.0$
  */
-public class JsonResultType {
+public class EasyUI_DataGrid_ReturnType {
 
-    //{"total":xx,"rows":[{},{},{}]}
+    //EasyUi中的封装格式{"total":xx,"rows":[{},{},{}]}
 
     private Long total;
 

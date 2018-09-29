@@ -1,4 +1,4 @@
-package com.manager.pojo.returntype;
+package ResultType;
 
 /**
  * @ Author     ：CstomRita
@@ -12,7 +12,7 @@ package com.manager.pojo.returntype;
  *  text
  *  state 父节点为closed 子节点为open
  */
-public class CatReturnType {
+public class EasyUI_Tree_ReturnType {
     private long id;
     private String text;
     private String state;

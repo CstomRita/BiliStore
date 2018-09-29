@@ -4,9 +4,12 @@
         <!--加载Spring容器-->
         <!--解决post乱码-->
 <!--SpringMVC前端控制器-->
-<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+        version="3.0">
 
-    <welcome-file-list>
+<welcome-file-list>
         <welcome-file>/WEB-INF/jsp/index.jsp</welcome-file>
     </welcome-file-list>
 
@@ -43,6 +46,11 @@
             <param-value>classpath:spring/springMVC.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
+
+        <multipart-config>
+
+        </multipart-config>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>bilistore_manager</servlet-name>

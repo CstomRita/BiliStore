@@ -16,10 +16,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BiliStore" target="1.5" />
-      <module name="bilistore_common_mapper" target="1.8" />
-      <module name="bilistore_common_pojo" target="1.8" />
-      <module name="bilistore_common_service" target="1.8" />
-      <module name="bilistore_common_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

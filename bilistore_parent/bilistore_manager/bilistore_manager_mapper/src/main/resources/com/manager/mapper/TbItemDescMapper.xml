@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTDMapper3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.manager.mapper.TbItemDescMapper">
+
+    <insert id="addOneDesc">
+        insert into tb_item_desc(
+        item_id,item_desc,created,updated
+        )
+        values
+        (
+        #{itemId},#{itemDesc},#{created},#{updated}
+        )
+    </insert>
+</mapper>

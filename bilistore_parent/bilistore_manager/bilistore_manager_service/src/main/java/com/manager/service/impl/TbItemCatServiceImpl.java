@@ -1,9 +1,8 @@
 package com.manager.service.impl;
 
 import com.manager.mapper.TbItemCatMapper;
-import com.manager.pojo.TbItem;
 import com.manager.pojo.TbItemCat;
-import com.manager.pojo.returntype.CatReturnType;
+import ResultType.EasyUI_Tree_ReturnType;
 import com.manager.service.TbItemCatService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,19 +27,19 @@ public class TbItemCatServiceImpl implements TbItemCatService {
     private TbItemCatMapper itemCatMapper;
 
     @Override
-    public List<CatReturnType> getTbItemCatByParentId(Integer id) {
+    public List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Integer id) {
 
         List<TbItemCat> list = itemCatMapper.getTbItemCatByParentId(id);
         logger.info("查询结果"+list.toString());
 
-        List<CatReturnType> result = new ArrayList<>();
+        List<EasyUI_Tree_ReturnType> result = new ArrayList<>();
         Integer returnId = 1;
         for(TbItemCat tbItemCat : list) {
-            CatReturnType catReturnType = new CatReturnType();
-            catReturnType.setId(tbItemCat.getId());
-            catReturnType.setState(tbItemCat.getIsParent()?"closed":"open");
-            catReturnType.setText(tbItemCat.getName());
-            result.add(catReturnType);
+            EasyUI_Tree_ReturnType easyUITreeReturnType = new EasyUI_Tree_ReturnType();
+            easyUITreeReturnType.setId(tbItemCat.getId());
+            easyUITreeReturnType.setState(tbItemCat.getIsParent()?"closed":"open");
+            easyUITreeReturnType.setText(tbItemCat.getName());
+            result.add(easyUITreeReturnType);
         }
         return result;
     }

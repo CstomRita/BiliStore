@@ -1,3 +1,6 @@
+com/manager/mapper/TbItemDescMapper.class
+com/manager/mapper/TbItemMapper.class
+com/manager/mapper/TbItemParamMapper.class
+com/manager/mapper/TbItemParamItemMapper.class
 com/manager/mapper/UserMapper.class
 com/manager/mapper/TbItemCatMapper.class
-com/manager/mapper/TbItemMapper.class
