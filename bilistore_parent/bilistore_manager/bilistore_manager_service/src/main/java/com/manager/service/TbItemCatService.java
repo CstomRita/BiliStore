@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface TbItemCatService {
 
-    List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Integer id);
+    List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Long id);
 }

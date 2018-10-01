@@ -49,7 +49,7 @@ public class TbItemController {
 
     @RequestMapping("/item/cat/list")
     @ResponseBody
-    public List<EasyUI_Tree_ReturnType> getItemCat(Integer id) {
+    public List<EasyUI_Tree_ReturnType> getItemCat(Long id) {
         id = id == null ? 0 :id;
         logger.info("接收到id:"+id);
         return tbItemCatService.getTbItemCatByParentId(id);
@@ -78,7 +78,7 @@ public class TbItemController {
        return tbItemService.deleteTbItemParam(id);
     }
     //获取商品参数模板
-    @RequestMapping(value="/item/param/query/itemcatid/{id}",method=RequestMethod.GET)
+    @RequestMapping(value="/item/param/query/itemcatid/{id}",method=RequestMethod.GET,produces = "application/json")
     @ResponseBody
     public ResponseResult getTbItemParam(@PathVariable("id") Long item_cat_id){
         logger.info("获取模板类别"+item_cat_id);

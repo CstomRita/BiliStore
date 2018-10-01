@@ -3,7 +3,10 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_web" />
+    <file type="web" url="file://$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb" />
     <file type="web" url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/bilistore_parent/bilistore_service_restful" />
+    <file type="web" url="file://$PROJECT_DIR$/bilistore_parent/service_restful" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -18,6 +21,7 @@
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_pojo/pom.xml" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_service/pom.xml" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_web/pom.xml" />
+        <option value="$PROJECT_DIR$/bilistore_parent/service_rest/pom.xml" />
       </set>
     </option>
   </component>

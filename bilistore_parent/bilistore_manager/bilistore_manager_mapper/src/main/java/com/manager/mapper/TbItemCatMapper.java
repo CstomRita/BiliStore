@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface TbItemCatMapper {
 
-    List<TbItemCat> getTbItemCatByParentId(@Param("parentId") Integer parentId);
+    List<TbItemCat> getTbItemCatByParentId(@Param("parentId") Long parentId);
 }

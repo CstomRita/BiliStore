@@ -61,7 +61,7 @@ commmons-fileupload 文件上传
       
 3 树形表，商品类别展开基于EasyUI异步树控件，一个JsonArray
 
-#### update3——商品管理/新增商品
+### update3——商品管理/新增商品
 
 使用FTP服务器作为图片服务器，新增产品操作
 
@@ -69,7 +69,7 @@ commmons-fileupload 文件上传
 
 商品信息和商品描述分开存储，因为商品在展示的时候可以不显示商品的描述
 
-#### update4——商品管理/规格参数
+### update4——商品管理/规格参数
 
 功能板块A 规格参数这里是对参数模板的管理
 
@@ -131,3 +131,11 @@ commmons-fileupload 文件上传
 一个商品规格参数表(tb_item_param_item)，存储具体的商品规格参数Json格式只和具体商品挂钩，通过商品id关联
 
 这么存储，模板表和具体的商品规格参数表没有任何关联，不需要做多表关联查询
+
+### update5 前台系統搭建
+
+将服务层脱离构建成一个单独的WAR工程（bilistore_service_restful），RestFul服务风格
+
+前台系统bilistore_foreWeb
+
+商品左侧首页分类显示

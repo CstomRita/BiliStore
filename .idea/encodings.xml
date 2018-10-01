@@ -3,14 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bilistore_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_mapper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_pojo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bilistore_parent/bilistore_service_restful" charset="UTF-8" />
   </component>
 </project>

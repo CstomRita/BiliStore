@@ -27,7 +27,7 @@ public class TbItemCatServiceImpl implements TbItemCatService {
     private TbItemCatMapper itemCatMapper;
 
     @Override
-    public List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Integer id) {
+    public List<EasyUI_Tree_ReturnType> getTbItemCatByParentId(Long id) {
 
         List<TbItemCat> list = itemCatMapper.getTbItemCatByParentId(id);
         logger.info("查询结果"+list.toString());

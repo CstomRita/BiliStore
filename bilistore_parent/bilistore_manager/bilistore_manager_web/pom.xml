@@ -18,11 +18,8 @@
             <artifactId>bilistore_manager_service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!-- JSP相关 -->
-        <dependency>
-            <groupId>jstl</groupId>
-            <artifactId>jstl</artifactId>
-        </dependency>
+        <!--SpringMVC及Servlet-->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -33,6 +30,12 @@
             <artifactId>jsp-api</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <!-- JSP相关 -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
         <!-- 文件上传组件 -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -40,5 +43,7 @@
         </dependency>
 
     </dependencies>
+
+
 
 </project>
