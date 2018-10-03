@@ -1,4 +1,5 @@
 com/manager/controller/TbItemController.class
+com/manager/controller/TBItemContentController.class
 com/manager/controller/PageController.class
 com/manager/controller/FTPController.class
 com/manager/controller/UserController.class

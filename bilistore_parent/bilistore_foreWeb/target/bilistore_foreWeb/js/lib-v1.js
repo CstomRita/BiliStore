@@ -1224,6 +1224,7 @@ var category = {OBJ: $("#_JD_ALLSORT"),
       //  $.getJSONP(this.URL_BrandsServ, category.getBrandService)
     },getDataService: function(a) {
         var b = [], c = this;
+        
         $.each(a.data, function(a) {
             this.index = a, "l" == this.t && (this.i = c.FN_RefactorJSON(this.i, 7)), b.push(c.renderItem(this, a))
         });

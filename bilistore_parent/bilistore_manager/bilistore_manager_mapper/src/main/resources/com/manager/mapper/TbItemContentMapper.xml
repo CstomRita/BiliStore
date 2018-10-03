@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTDMapper3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.manager.mapper.TbItemContentMapper">
+
+
+    <select id="getContentCategoryById" resultType="com.manager.pojo.TbContentCategory">
+        select *
+        from
+        tb_content_category
+        where
+        id = #{id}
+    </select>
+
+    <select id="getContentCategoryList" resultType="com.manager.pojo.TbContentCategory">
+        select *
+        from
+        tb_content_category
+        where
+        parent_id = #{parentId};
+    </select>
+
+    <update id="updateContentCategoryList">
+        update  tb_content_category
+        set status = #{status}, name = #{name},sort_order = #{sortOrder}, is_parent = #{isParent}, updated = #{updated}
+        where
+        id = #{id}
+    </update>
+
+    <insert id="creatContentCategory" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_content_category
+        (
+        parent_id,name,status,sort_order,is_parent,created,updated
+        )
+        values
+        (
+        #{parentId},#{name},#{status},#{sortOrder},#{isParent},#{created},#{updated}
+        )
+    </insert>
+
+    <delete id="deleteContentCategoryById">
+        delete
+        from
+        tb_content_category
+        where
+        id = #{id}
+    </delete>
+
+
+
+    <select id="getContentListByCategoryId" resultType="com.manager.pojo.TbContent">
+        select *
+        from
+        tb_content
+        where
+        category_id = #{categoryId}
+    </select>
+
+
+    <insert id="addNewContent" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_content(
+        category_id,title,sub_title,title_desc,url,pic,pic2,content,created,updated
+        )
+        values
+        (
+        #{categoryId},#{title},#{subTitle},#{titleDesc},#{url},#{pic},#{pic2},#{content},#{created},#{updated}
+        )
+    </insert>
+
+</mapper>

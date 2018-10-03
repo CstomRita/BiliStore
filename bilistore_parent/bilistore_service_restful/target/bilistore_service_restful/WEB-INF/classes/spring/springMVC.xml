@@ -27,6 +27,10 @@
         <!--配置映射器
         可以通过@ResponseBody将返回值转换成在这里配置的格式-->
         <mvc:message-converters register-defaults="true">
+
+            <!--String支持-->
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter"/>
+
             <!-- 配置alibaba.Fastjson支持 -->
             <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
                 <property name="supportedMediaTypes">

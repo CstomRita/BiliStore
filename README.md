@@ -134,8 +134,67 @@ commmons-fileupload 文件上传
 
 ### update5 前台系統搭建
 
-将服务层脱离构建成一个单独的WAR工程（bilistore_service_restful），RestFul服务风格
+将服务层脱离构建成一个单独的WAR工程（bilistore_service_restful 
 
-前台系统bilistore_foreWeb
+### update6 CMS内容管理系统
 
-商品左侧首页分类显示
+首页广告位轮播图需要由后台管理系统控制管理，方便非技术人员可以管理
+
+1  CMS內容管理系统，bilistore_manager后台管理实现
+
+————>1.1 内容分类管理,管理不同页面，不同位置(首页 边栏)的内容
+
+——————————> 数据格式：同树形表，展开基于EasyUI异步树控件，一个JsonArray
+
+—————>1.2 內容管理
+
+——————————>数据格式：基于garid的分页格式 //{"total":xx,"rows":[{},{},{}]}
+
+2 前台首页广告位展示
+
+————————>前台系统发送Http请求服务层，服务层拿取数据库内容列表
+
+————————>前台数据格式：一个JsonArray
+
+        [{
+        	"alt": "标题1",
+        	"height": 240,
+        	"heightB": 240,
+        	"href": "http://www.jd.com",
+        	"src": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"srcB": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"width": 670,
+        	"widthB": 550
+        }, {
+        	"alt": "ad2",
+        	"height": 240,
+        	"heightB": 240,
+        	"href": "http://www.baidu.com",
+        	"src": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"srcB": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"width": 670,
+        	"widthB": 550
+        }, {
+        	"alt": "ad3",
+        	"height": 240,
+        	"heightB": 240,
+        	"href": "http://www.sina.com.cn",
+        	"src": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"srcB": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"width": 670,
+        	"widthB": 550
+        }, {
+        	"alt": "ad4",
+        	"height": 240,
+        	"heightB": 240,
+        	"href": "ad4",
+        	"src": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"srcB": "http://localhost:8888/images/5440b1e4N8ff6d0fd.jpg",
+        	"width": 670,
+        	"widthB": 550
+        }]
+        
+
+
+
+    

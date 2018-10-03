@@ -1,5 +1,6 @@
+Utils/FTPUtil.class
+Utils/HttpClientUtil.class
 ResultType/ResponseResult.class
 Utils/NameIdUtil.class
 ResultType/EasyUI_Tree_ReturnType.class
 ResultType/EasyUI_DataGrid_ReturnType.class
-Utils/FTPUtil.class

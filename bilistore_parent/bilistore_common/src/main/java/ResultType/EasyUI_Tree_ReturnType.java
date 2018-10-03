@@ -6,7 +6,7 @@ package ResultType;
  * @ Description：商品条目返回数据类型
  * @ Modified By：
  * @Version: $
- * 商品条目接收一个JsonArray
+ * 商品条目接收一个JsonArray,List<EasyUI_Tree_ReturnType>
  *  每个JsonObject是
  *  id 1 2 3。。。。
  *  text

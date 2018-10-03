@@ -1,6 +1,8 @@
 com/manager/pojo/TbItemParamItem.class
 com/manager/pojo/TbItem.class
+com/manager/pojo/TbContent.class
 com/manager/pojo/User.class
 com/manager/pojo/TbItemDesc.class
 com/manager/pojo/TbItemParam.class
 com/manager/pojo/TbItemCat.class
+com/manager/pojo/TbContentCategory.class

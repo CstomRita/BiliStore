@@ -1,10 +1,12 @@
 package com.foreWeb.controller;
 
+import com.foreWeb.service.WebContentService;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @ Author     ：CstomRita
@@ -18,9 +20,15 @@ public class IndexController {
 
     private Logger logger = Logger.getLogger(IndexController.class);
 
+    @Autowired
+    private WebContentService webContentService;
+
     @RequestMapping("/index")
-    public String showIndex() {
+    public String showIndex(Model model) {
         logger.info("接收到请求首页的请求");
+        String ad1 = webContentService.getContentList();
+        logger.info(ad1);
+        model.addAttribute("ad1", ad1);
         return "index";
     }
 
