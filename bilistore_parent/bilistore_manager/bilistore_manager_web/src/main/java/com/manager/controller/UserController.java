@@ -14,9 +14,14 @@ import com.manager.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
+import org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor;
 
 /**
  * 〈userController〉
@@ -33,9 +38,10 @@ public class UserController {
 
     @RequestMapping("/user/userid")
     @ResponseBody
-    public User getUserById(int userid){
+    public User getUserById(@RequestBody String userid){
         logger.info("接收到userid"+userid);
-        User user = userService.getUserById(userid);
-        return user;
+//        User user = userService.getUserById(userid);
+        return null;
     }
+
 }
