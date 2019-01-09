@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2c71c45d-85f8-4bdd-999f-dcb8a9604b24" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/java/com/manager/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/java/com/manager/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/target/classes/com/manager/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/target/classes/com/manager/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/target/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/target/classes/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/bilistore_foreWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/bilistore_manager_mapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_pojo/bilistore_manager_pojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/bilistore_manager_service.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +29,6 @@
     <ignored path="$PROJECT_DIR$/bilistore_parent/bilistore_service_restful/target/" />
     <ignored path="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,33 +36,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="13" selection-end-line="59" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCatMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/resources/com/manager/mapper/TbItemCatMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/applicationContext-service.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/Spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="TbItemCatMapper.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/java/com/manager/mapper/TbItemCatMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="84">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FTPService.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/FTPService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -80,16 +65,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FTPServiceImpl.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/impl/FTPServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
+            <state relative-caret-position="273">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -98,16 +83,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemImpl.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/impl/TbItemImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/java/com/manager/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -116,8 +101,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/applicationContext-dao.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/resources/com/manager/mapper/TbItemContentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2274">
+                <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/Spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1071">
               <caret line="51" column="51" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="51" />
@@ -133,6 +139,7 @@
         <option value="Jsp File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="MybatisXML Properties File" />
       </list>
     </option>
   </component>
@@ -224,17 +231,11 @@
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/src/main/java/com/foreWeb/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/src/main/java/com/foreWeb/service/impl/WebContentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/java/com/manager/controller/UserController.java" />
         <option value="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/springMVC.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -273,14 +274,10 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="79" />
-    <option name="width" value="1764" />
-    <option name="height" value="1001" />
+    <option name="y" value="23" />
+    <option name="width" value="1394" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -288,6 +285,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
+              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
+              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
+              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
+              <item name="service.impl" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +364,7 @@
               <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
@@ -348,220 +374,51 @@
               <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BiliStore" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bilistore_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
-              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
-              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="BiliStore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="bilistore_foreWeb" type="616d4139:PackageViewModuleNode" />
-              <item name="com.foreWeb" type="1f31426a:PackageElementNode" />
-              <item name="service.impl" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546827532616" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43908045" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.23226434" />
   </component>
   <component name="RecentsManager">
@@ -606,30 +463,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="bilistore_manager_service" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="bilistore_common [install:install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
@@ -654,6 +510,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="bilistore_parent [install:install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
@@ -678,6 +535,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="debug" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -703,6 +561,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="run_bilistore_manager" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
@@ -727,33 +586,20 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.debug" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ManagerTomact" />
+      <item itemvalue="Maven.debug" />
       <item itemvalue="Maven.run_bilistore_manager" />
       <item itemvalue="Maven.bilistore_common [install:install]" />
       <item itemvalue="Maven.bilistore_parent [install:install]" />
@@ -795,6 +641,9 @@
       <workItem from="1539262201058" duration="3928000" />
       <workItem from="1539306142258" duration="1381000" />
       <workItem from="1541647047409" duration="180000" />
+      <workItem from="1546827237003" duration="303000" />
+      <workItem from="1546850126044" duration="117000" />
+      <workItem from="1546850259538" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="配置">
       <created>1536848878301</created>
@@ -821,85 +670,84 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227875000" />
+    <option name="totallyTimeSpent" value="229264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="79" width="1764" height="1001" extended-state="0" />
+    <frame x="0" y="23" width="1394" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50206006" side_tool="true" weight="0.26398212" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.24099883" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="8" sideWeight="0.49911714" weight="0.38527215" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751479" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3761062" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49852854" weight="0.2379936" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793997" weight="0.20685841" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.11283186" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972324" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21022068" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.06311208" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.43141592" />
-    </layout>
-    <layout-to-restore>
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="7" visible="true" weight="0.11283186" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793997" weight="0.20685841" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972324" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50206006" side_tool="true" weight="0.26398212" />
-      <window_info anchor="bottom" id="Statistic" order="13" sideWeight="0.49911714" weight="0.38527215" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43141592" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793997" weight="0.20685841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3761062" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.11283186" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50206006" side_tool="true" weight="0.26398212" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49852854" weight="0.2379936" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.24099883" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20557491" />
+      <window_info anchor="bottom" id="Statistic" order="13" sideWeight="0.49911714" weight="0.38527215" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.06311208" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.24099883" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20557491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43141592" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793997" weight="0.20685841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1659292" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" visible="true" weight="0.11283186" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50206006" side_tool="true" weight="0.26398212" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49852854" weight="0.2379936" />
+      <window_info anchor="bottom" id="Statistic" order="13" sideWeight="0.49911714" weight="0.38527215" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.06311208" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.24099883" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置" />
@@ -1000,31 +848,9 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-831">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.43/fastjson-1.1.43.jar!/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1039,13 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="371" selection-start-line="371" selection-end-line="371" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350">
@@ -1053,13 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1109,20 +923,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/context/request/async/StandardServletAsyncWebRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1130,27 +932,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1108" column="28" selection-start-line="1108" selection-start-column="28" selection-end-line="1108" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/http/HttpInputMessage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1190,13 +974,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1204,16 +982,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2289">
-          <caret line="149" column="33" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/http/converter/GenericHttpMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1221,37 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6153">
-          <caret line="351" column="7" selection-start-line="351" selection-start-column="7" selection-end-line="351" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24255">
-          <caret line="1221" column="50" selection-start-line="1221" selection-start-column="50" selection-end-line="1221" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestBodyAdvice.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodArgumentResolver.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/annotation/RequestParamMethodArgumentResolver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1287,20 +1029,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4809">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#14496#14497#0" expanded="true" />
-            <element signature="e#30778#30779#0" expanded="true" />
-            <element signature="e#30796#30797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/springMVC.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/Spring/springMVC.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
@@ -1321,19 +1051,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/resources/com/manager/mapper/vv.xml" />
+    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/Spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/java/com/manager/mapper/TbItemCatMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="84">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1353,7 +1077,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/impl/FTPServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
+        <state relative-caret-position="273">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
@@ -1368,7 +1092,7 @@
     <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/src/main/java/com/manager/service/impl/TbItemImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1376,6 +1100,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_web/src/main/resources/Spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/src/main/resources/com/manager/mapper/TbItemContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2274">
+            <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

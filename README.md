@@ -1,7 +1,7 @@
 
-## SSM + Redis 项目
+# SSM + Redis 项目
 
-### 搭建结构
+## update1-搭建结构
 
 1 创建普通的Maven工程，删掉src、pom，只留下.idea 和 .iml的工程配置即可
 
@@ -23,7 +23,7 @@
   3 在parent模块下生成其他业务类子模块
   
 
-#### 其他模块
+### 其他模块
 以Common模块为例：
 公共模块，工具类，通用类等
 在Common下创建
@@ -35,7 +35,7 @@ pojo：提供接口，Jar类，依赖mapper
 
 web：面向用户、业务展示，需要上传到服务器的war包，依赖Service
 
-#### parent下的pom文件概述
+### parent下的pom文件概述
 
 junit 单元测试
 spring：spring-context，spring-beans,spring-webmvc,spring-jdbc,spring-aspects
@@ -52,7 +52,7 @@ joda-time 时间操作
 commons-langs commons-io commons-net apache处理包
 commmons-fileupload 文件上传
 
-### update2——商品管理/商品查询
+## update2——商品管理/商品查询
 
 1 分页插件查询
 
@@ -61,7 +61,7 @@ commmons-fileupload 文件上传
       
 3 树形表，商品类别展开基于EasyUI异步树控件，一个JsonArray
 
-### update3——商品管理/新增商品
+## update3——商品管理/新增商品
 
 使用FTP服务器作为图片服务器，新增产品操作
 
@@ -69,7 +69,7 @@ commmons-fileupload 文件上传
 
 商品信息和商品描述分开存储，因为商品在展示的时候可以不显示商品的描述
 
-### update4——商品管理/规格参数
+## update4——商品管理/规格参数
 
 功能板块A 规格参数这里是对参数模板的管理
 
@@ -132,11 +132,11 @@ commmons-fileupload 文件上传
 
 这么存储，模板表和具体的商品规格参数表没有任何关联，不需要做多表关联查询
 
-### update5 前台系統搭建
+## update5 前台系統搭建
 
 将服务层脱离构建成一个单独的WAR工程（bilistore_service_restful 
 
-### update6 CMS内容管理系统
+## update6 CMS内容管理系统
 
 首页广告位轮播图需要由后台管理系统控制管理，方便非技术人员可以管理
 
