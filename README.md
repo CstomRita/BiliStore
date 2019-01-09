@@ -1,6 +1,4 @@
-
 # SSM + Redis 项目
-
 ## update1-搭建结构
 
 1 创建普通的Maven工程，删掉src、pom，只留下.idea 和 .iml的工程配置即可

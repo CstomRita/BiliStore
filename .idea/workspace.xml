@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c71c45d-85f8-4bdd-999f-dcb8a9604b24" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_common/bilistore_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_foreWeb/bilistore_foreWeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_mapper/bilistore_manager_mapper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_pojo/bilistore_manager_pojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilistore_parent/bilistore_manager/bilistore_manager_service/bilistore_manager_service.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2274">
-                <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+              <first_editor>
+                <caret column="16" selection-start-column="16" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -643,7 +636,7 @@
       <workItem from="1541647047409" duration="180000" />
       <workItem from="1546827237003" duration="303000" />
       <workItem from="1546850126044" duration="117000" />
-      <workItem from="1546850259538" duration="969000" />
+      <workItem from="1546850259538" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="配置">
       <created>1536848878301</created>
@@ -670,7 +663,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229264000" />
+    <option name="totallyTimeSpent" value="229401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="0" />
@@ -1120,8 +1113,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2274">
-            <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
